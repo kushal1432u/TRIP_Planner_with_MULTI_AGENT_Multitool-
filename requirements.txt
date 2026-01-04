@@ -1,0 +1,26 @@
+## 📦 requirements.txt for ADK
+
+This file covers the backend requirements for an agentic system capable of tracing and state management.
+
+```text
+# Agent Logic
+langgraph
+langchain
+langchain-openai
+langchain-google-genai
+
+# Observability & Tracing
+langsmith
+opentelemetry-api
+opentelemetry-sdk
+
+# API & Web Server
+fastapi
+uvicorn
+python-multipart
+websockets
+
+# Data Handling & Environment
+python-dotenv
+pydantic
+pandas
